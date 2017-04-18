@@ -5,7 +5,7 @@ This module provides **no delay**, **real time** stock data in NYSE & NASDAQ.
  
 Another awesome module, [yahoo-finance](https://github.com/lukaszbanasiak/yahoo-finance)'s data is delayed by 15 min, but it provides convenient apis to fetch historical day-by-day stock data.
 
-##Install
+## Install
 From PyPI with pip:
 	
 	$pip install googlefinance
@@ -16,7 +16,7 @@ From development repo (requires git)
 	$cd googlefinance
 	$python setup.py install
 
-##Usage example
+## Usage example
 
 	>>> from googlefinance import getQuotes
 	>>> import json
